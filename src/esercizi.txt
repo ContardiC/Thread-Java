@@ -1,0 +1,10 @@
+1)
+Modifi ca il programma utilizzando come buffer un oggetto, per esempio del tipo contatore
+come descritto nel primo esempio.
+2)
+ Modifi ca il programma precedente in modo che siano presenti due produttori e due consumatori:
+il primo produttore incrementa il dato di una sola unità mente il secondo lo raddoppia.
+ A video i consumatori visualizzano oltre al valore letto anche il proprio nome
+3)
+Realizza un programma per sincronizzare tre processi che rispettivamente visualizzano il suono
+di una campana in modo da ottenere la sequenza infi nita di “DIN” “DON” “DAN”.

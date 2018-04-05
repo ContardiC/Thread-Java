@@ -1,0 +1,11 @@
+Osserviamo come le variabili interne di conteggio inizia sono “locali” ai singoli thread in quanto
+ogni thread incrementa la propria, mentre sia la variabile valore dell’oggetto conta sia la variabile
+x della classe InComune1 a ogni iterazione di ogni thread “subiscono” un incremento, cioè sono
+effettivamente comuni ai due thread.
+
+
+IMPORTANTE:
+
+Ma l’output mostra come si sia verifi cato qualche problema di interleaving: se ripetiamo più
+volte l’esecuzione del programma probabilmente avremo sempre sequenze diverse.
+È necessario introdurre i meccanismi che permettono la corretta gestione della risorsa condivisa.
